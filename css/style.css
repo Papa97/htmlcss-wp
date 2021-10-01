@@ -1,87 +1,108 @@
 /* commons */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .head-top,
 .head-bt,
-.main-top{
-    margin-bottom: 20px;
+.main-top {
+  margin-bottom: 20px;
 }
 
 .clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
-.container{
-    width: 80%;
-    margin: 10px auto;
+.container {
+  width: 80%;
+  margin: 10px auto;
 }
 
 /* header */
 
-.head-top{
-    height: 100px;
+.head-top {
+  height: 100px;
 }
 
-.head-bt{
-    height: 300px;
+.head-bt {
+  height: 300px;
+}
+
+nav li {
+  list-style: none;
+  float: left;
+  margin: 15px;
+}
+
+nav {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#logo {
+  height: 50px;
+  padding-right: 15px;
+  border-right: 1px solid black;
 }
 
 /* main  */
-main{
-    background-color:blue;
-    margin-bottom: 20px;
+main {
+  background-color: blue;
+  margin-bottom: 20px;
 }
 
-.left{
-    float: left;
+.left {
+  float: left;
 }
 
-.main-left{
-    width: 20%;
+.main-left {
+  width: 20%;
 }
 
-.main-mid{
-    margin:0 2% 20px;
-    width: 56%;
+.main-mid {
+  margin: 0 2% 20px;
+  width: 56%;
 }
 
 /* footer  */
 
-.foot{
-    height: 100px;
+.foot {
+  height: 100px;
 }
 
 /* debug */
 
-.debug .head-top{
-    background-color: violet;
+.debug .head-top {
+  background-color: violet;
 }
 
-.debug .head-bt{
-    background-color: yellow;
+.debug .head-bt {
+  background-color: yellow;
 }
 
-.debug .main-top{
-    background-color: lightblue;
-    height:80px;
+.debug .main-top {
+  background-color: lightblue;
+  height: 80px;
 }
 
-.debug .main-left{
-    background-color:lightblue;
-    height: 350px;
+.debug .main-left {
+  background-color: lightblue;
+  height: 350px;
 }
 
-.debug .main-mid{
-    background-color:lightblue;
-    height: 350px;
+.debug .main-mid {
+  background-color: lightblue;
+  height: 350px;
 }
 
-.debug .foot{
-    background-color: purple;
+.debug .foot {
+  background-color: purple;
+}
+
+.debug nav {
+  background-color: grey;
 }
