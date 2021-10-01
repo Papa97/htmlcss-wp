@@ -30,6 +30,9 @@ body {
   color: grey;
 }
 
+.dark-img {
+  filter: brightness(70%);
+}
 /* header */
 
 nav li {
@@ -64,10 +67,16 @@ a {
 .head-bt div {
   position: relative;
   left: 30px;
-  top: 300px;
+  top: 200px;
 }
 #titolo-head {
-  font-weight: 600;
+  font-weight: 400;
+  font-size: 40px;
+  width: 850px;
+}
+
+#text-head {
+  width: 850px;
 }
 /* main  */
 main {
