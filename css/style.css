@@ -33,6 +33,10 @@ body {
 .dark-img {
   filter: brightness(70%);
 }
+.head-bt,
+.immagini {
+  border-radius: 15px;
+}
 /* header */
 
 nav li {
