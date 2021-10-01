@@ -1,0 +1,87 @@
+/* commons */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head-top,
+.head-bt,
+.main-top{
+    margin-bottom: 20px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container{
+    width: 80%;
+    margin: 10px auto;
+}
+
+/* header */
+
+.head-top{
+    height: 100px;
+}
+
+.head-bt{
+    height: 300px;
+}
+
+/* main  */
+main{
+    background-color:blue;
+    margin-bottom: 20px;
+}
+
+.left{
+    float: left;
+}
+
+.main-left{
+    width: 20%;
+}
+
+.main-mid{
+    margin:0 2% 20px;
+    width: 56%;
+}
+
+/* footer  */
+
+.foot{
+    height: 100px;
+}
+
+/* debug */
+
+.debug .head-top{
+    background-color: violet;
+}
+
+.debug .head-bt{
+    background-color: yellow;
+}
+
+.debug .main-top{
+    background-color: lightblue;
+    height:80px;
+}
+
+.debug .main-left{
+    background-color:lightblue;
+    height: 350px;
+}
+
+.debug .main-mid{
+    background-color:lightblue;
+    height: 350px;
+}
+
+.debug .foot{
+    background-color: purple;
+}
