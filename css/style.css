@@ -37,6 +37,16 @@ body {
 .immagini {
   border-radius: 15px;
 }
+
+#main-sx,
+#main-rx,
+#main-centro {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 20px;
+}
 /* header */
 
 nav li {
@@ -109,6 +119,17 @@ main {
   height: 250px;
 }
 
+#main-centro {
+  background-image: url("../img/banner-2.jpg");
+}
+
+#main-sx {
+  background-image: url("../img/img-1.jpg");
+}
+
+#main-rx {
+  background-image: url("../img/img-3.jpg");
+}
 /* footer  */
 
 .foot {
