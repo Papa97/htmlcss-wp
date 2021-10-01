@@ -99,6 +99,11 @@ main {
 
 .foot {
   height: 100px;
+  text-align: center;
+}
+
+#cuore {
+  color: red;
 }
 
 /* debug */
